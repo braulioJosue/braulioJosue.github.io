@@ -1,0 +1,55 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;    
+}
+table th{
+    background-color: darkgray;
+}
+.main{
+    width: 100%;
+    border: solid 1px;
+    padding: 10px;
+}
+.main .linea0, .main .linea1 {
+    width: 100%;
+    display: flex;
+}
+.main .linea0 aside{
+    width: 50%;    
+}
+.main .linea1{
+    text-align: center;
+}
+.main .linea1 p{
+    width: 100%;
+}
+.main .linea1 label{
+    margin: 0px 50px;
+    /* 0px(arriba) 0px(derecha) 0px(abajo) 0px(izquierda)
+        0px(arriba, abajo) 0px(derecha, izquierda)
+        0px(todos) */
+}
+/* .main .linea aside:nth-child(1){
+    background-color:green;
+} */
+h1{
+    font-size: 40px;
+    /* !important */
+}
+img{
+    border-radius: 10px;
+}
+.main2 .linea2 label{    
+    width: 100%;
+    margin: 0px 20%;    
+}
+.main legend{
+    font-size: 20px ;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color:  gray;
+}
+.main .tablee{
+    display: flex;       
+}
