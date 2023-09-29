@@ -1,0 +1,66 @@
+.main .arriba{
+    text-align: center;           
+}
+ .main .info {
+   height: 100%;   
+   display: flex;   
+   text-align: center;
+}
+
+.main .contenido aside{
+    display: flex;
+    
+}
+.contenido {
+    margin-right: 50% ;
+    display: flex;
+}
+.contenido article{
+    text-align: center;
+    margin: 0px 150px;
+}
+.contenido .co{
+    text-align: center;
+}
+
+.co{
+    text-align: center;
+}
+
+.resumen{
+    text-align: center; 
+    background-color: rgba(77, 76, 76, 60%);     
+}
+img{
+    border-radius: 30px;
+}
+
+.resumen ul li{
+    font-size: 20px;    
+}
+
+.contenidoCandidato h1{    
+    background-color: gray;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+}
+.contenidoCandidato{
+    text-align: center;
+}
+
+.main{
+    background-image: url(img/Patria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ h1{    
+    font-size: 30px;
+    font-style: normal;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
